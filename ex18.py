@@ -1,0 +1,10 @@
+n = str(input('digite o nome completo: '))
+print(n.upper())
+print(n.lower())
+p = ''.join(n.split())
+c = (p.__len__())
+print(f'o nome completo possui {c} letras')
+d = n.split()
+e= d[0]
+f = (e.__len__())
+print(f'o primeiro nome possui {f} letras')
